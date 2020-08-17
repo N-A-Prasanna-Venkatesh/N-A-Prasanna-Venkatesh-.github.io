@@ -1,0 +1,242 @@
+<html>
+    <head>
+        <title>Bouncing Balls!!</title>
+    </head>
+    <style>
+
+        body{
+            background:black;
+        }
+
+
+        .container{
+            text-align: center;
+            margin-top: 15%;
+        }
+
+
+
+        .circle:nth-child(1),
+        .circle:nth-child(2),
+        .circle:nth-child(3),
+        .circle:nth-child(4),
+        .circle:nth-child(5){
+            width: 30px;
+            height: 30px;
+            background: black;
+            display: inline-flex;
+            border-radius: 20em;
+            animation: PopUp .7s ease-in-out infinite;
+        }
+
+
+
+        .circlec:nth-child(1),
+        .circlec:nth-child(2),
+        .circlec:nth-child(3),
+        .circlec:nth-child(4),
+        .circlec:nth-child(5){
+            width: 70px;
+            height: 70px;
+            background: red;
+            display: inline-flex;
+            border-radius: 20em;
+            animation: PopUp1 .9s ease-in-out infinite;
+        }
+        
+
+        .circlec1:nth-child(1),
+        .circlec1:nth-child(2),
+        .circlec1:nth-child(3),
+        .circlec1:nth-child(4),
+        .circlec1:nth-child(5){
+            width: 50px;
+            height: 50px;
+            background: red;
+            display: inline-flex;
+            border-radius: 20em;
+            animation: PopUp2 1.3s ease-in-out infinite;
+        }
+
+
+        .circle:nth-child(1){
+            background: #2ecc71;
+            animation-delay: 0.05s;
+        }
+        .circle:nth-child(2){
+            background: #e74c3c;
+            animation-delay: 0.23s;
+        }
+        .circle:nth-child(3){
+            background: #9b59b6;
+            animation-delay: 0.40s;
+        }
+        .circle:nth-child(4){
+            background: #f1c40f;
+            animation-delay: 0.15s;
+        }
+        .circle:nth-child(5){
+            background: #3498db;
+            animation-delay: 0.34s;
+        }
+
+
+
+        .circlec:nth-child(1){
+            background: orange;
+            animation-delay: 0.05s;
+        }
+        .circlec:nth-child(2){
+            background: olive;
+            animation-delay: 0.25s;
+        }
+        .circlec:nth-child(3){
+            background: aqua ;
+            animation-delay: 0.15;
+        }
+        .circlec:nth-child(4){
+            background: #9b59b6;
+            animation-delay: 0.45s;
+        }
+        .circlec:nth-child(5){
+            background: gray;
+            animation-delay: 0.35s;
+        }
+
+
+        .circlec1:nth-child(1){
+            background: aquamarine;
+            animation-delay: 0.105s;
+        }
+        .circlec1:nth-child(2){
+            background: greenyellow;
+            animation-delay: 0.625s;
+        }
+        .circlec1:nth-child(3){
+            background: orange ;
+            animation-delay: 0.215;
+        }
+        .circlec1:nth-child(4){
+            background: darkblue;
+            animation-delay: 0.345s;
+        }
+        .circlec1:nth-child(5){
+            background: seashell;
+            animation-delay: 0.5s;
+        }
+
+
+        .panel{
+            width: 250px;
+            height: 5px;
+            background: white;
+            margin: auto;
+        }
+        
+
+        @keyframes PopUp {
+            0%{
+                transform: translateY(0px);
+            }
+            50%{
+                transform: translateY(-155px);
+            }
+            100%{
+                transform: translateY(0px);
+            }
+            
+        }
+        @keyframes PopUp1 {
+            0%{
+                transform: translateY(0px);
+            }
+            25%{
+                transform: translateY(-155px);
+            }
+            75%{
+                transform: translateY(155px);
+            }
+            100%{
+                transform: translateY(0px);
+            }
+            
+        }
+
+        @keyframes PopUp2 {
+            0%{
+                transform: translateY(0px);
+            }
+            25%{
+                transform: translateY(-123px);
+            }
+            50%{
+                transform: translateY(154px);
+            }
+            75%{
+                transform: translateY(-123px);
+            }
+            100%{
+                transform: translateY(0px);
+            }
+            
+        }
+
+
+        .container1{
+            margin-top: 30px;
+            text-align: center;
+        }
+        .container2{
+            margin-top: 30px;
+            text-align: center;
+        }
+        .container3{
+            margin-top: 30px;
+            text-align: center;
+        }
+    
+        
+    </style>
+    <body>
+        <h1 style="color: orangered;text-align: center;">!!Bouncing Balls!!</h1>
+        <div class="container">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+
+            
+
+
+        </div><br>
+
+        <div class="container1">
+        <div class="circlec"></div>
+        <div class="circlec"></div>
+        <div class="circlec"></div>
+        <div class="circlec"></div>
+        <div class="circlec"></div>
+        </div>
+
+        <div class="container2">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        </div>
+        <div class="container3">
+        <div class="circlec1"></div>
+        <div class="circlec1"></div>
+        <div class="circlec1"></div>
+        <div class="circlec1"></div>
+        <div class="circlec1"></div>
+        </div>
+
+        <div class="panel"></div>
+
+
+
+    </body>
+</html>
