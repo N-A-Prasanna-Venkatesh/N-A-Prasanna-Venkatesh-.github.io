@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Project-2</title>
+</head>
+<style>
+#header_info{
+    text-align: center;
+    margin: 25px;
+
+}
+#under_hr{
+    margin-left: 10%;
+    
+}
+.text_colouring{
+    text-decoration: none;
+    color: coral;
+}
+</style>
+<body bgcolor="aqua">
+    <div id="header_info">
+        <img src="hsb.jpg">
+    <div style="margin: 15px;"><h2> Hotel Saravana Bhavan</h2></div>    
+    </div>
+    <hr style="width:80%;text-align:center;margin-left:10%">
+
+    <div id="under_hr">
+        <div class="text_colouring">
+    <h2>The Restaurant</h2></div>
+    <div>The Saravana Bhavan offers a wide variety of food with world class infrastructure.</div>
+    <div>Our Restaurent Is one of the finest Restaurant at the country.People all over the country come here.</div>
+    <div class="text_colouring">
+        <h2>Catering</h2></div>
+
+        <div>We provide catering to birthday parties,marriages and so on.</div>
+        <div>So what are you waiting for? Just order us and you enjoy the day!</div>
+        <div class="text_colouring">
+            <h2>Location and Hours</h2></div>
+            <div>Mogappair West,Chennai,Tamil Nadu,India</div>
+            <div>All days at the week!</div>
+            <div>Any time of the party,WE WILL BE THERE FOR YOU!!</div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
