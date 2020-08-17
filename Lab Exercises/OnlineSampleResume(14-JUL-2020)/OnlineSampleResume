@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Mark-1</title>
+</head>
+<style>
+    #main_heading{
+    text-align: center;
+}
+#under_hr{
+    margin-left: 10%;
+}
+#my_image img{
+    float: left;
+    width: 100px;
+    margin-left: 90%;
+    height: 100px;
+    position: absolute;
+	
+}
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<body bgcolor="aqua">
+    <div id="main_heading">
+    <div>N A Prasanna Venkatesh</div>
+    <div>Student</div>
+    <div> Computer Science Engineer,Vellore Institute of Technology</div>
+    <div><a href="https://www.gmail.com">naprasannavenkatesh@gmail.com</a></div>
+    <div>+91 7010318848</div>
+    </div>
+    
+    <hr style="width:50%;text-align:center;margin-left:25%">
+
+    <div id="my_image"><img src="My_Photo.jpg"></div>
+    <div id="under_hr">
+    <h2>Job objective</h2>
+    <div> I am looking for a job right now in the sector of Internet and Web Programming .I have all the skills required for Creating the webpages and other stuffs. </div>
+    <div><h2>Research Interest </h2></div>
+    <div>My research and interest leie in internet and web programming,I also have the skills required for a team leader,I manage people very well.</div>
+    <div>I have interest in Machine Learning and Artificial Intelligence.</div>
+    <h2>Key Skills</h2>
+    <ul>
+        <li>I am good at HTML,CSS and JavaScript.</li>
+        <li>I do competitive coding using Python and C++</li>
+        <li>Creating android applications is one of my biggest passion.I have created many good android applications</li>
+        <li>I also know and learning ML and AI.</li>
+        <li>I play chess very well :D</li>
+    </ul>
+    <h2>Education</h2>
+    
+<table>
+    <tr>
+      <td><h4>B.Tech CSE</h4></td>
+      <td>2023</td>
+      <td>Vellore Institute of Technology</td>
+    </tr>
+    <tr>
+      <td><h4>12th Standard</h4></td>
+      <td>2019</td>
+      <td>Chennai Public School</td>
+    </tr>
+    <tr>
+      <td><h4>10th Standard</h4></td>
+      <td>2017</td>
+      <td>Chennai Public School</td>
+    </tr>
+  </table>
+  <h2>Work Experience : 5 years</h2>
+    </div>
+</body>
+</html>
